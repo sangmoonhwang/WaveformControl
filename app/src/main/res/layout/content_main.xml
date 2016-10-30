@@ -22,11 +22,11 @@
         android:id="@+id/waveformView" />
 
     <com.newventuresoftware.waveform.WaveformView
-        android:layout_width="match_parent"
+        android:layout_width="0dp"
         android:layout_height="0dp"
-        android:layout_weight="1"
+        android:layout_weight="0"
         app:mode="PLAYBACK"
-        app:waveformStrokeThickness="3"
+        app:waveformStrokeThickness="0"
         app:waveformColor="#e5dc33"
         app:waveformFillColor="#e93519"
         android:background="#000000"
